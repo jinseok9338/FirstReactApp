@@ -15,10 +15,13 @@ const Location = (props) => {
     font-size: 1.1rem;
   `;
 
+  var city = props.city;
+  var country = props.country;
+
   return (
     <Container>
-      <City>Sydney</City>
-      <Country>AD</Country>
+      <City>{city}</City>
+      <Country>{country}</Country>
     </Container>
   );
 };

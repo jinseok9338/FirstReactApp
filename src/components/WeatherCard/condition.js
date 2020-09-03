@@ -12,10 +12,13 @@ const Condition = (props) => {
     font-weight: 400;
   `;
 
+  var temp = props.temp;
+  var condition = props.condition;
+
   return (
     <>
-      <Temp>20°C</Temp>
-      <State>Clouds</State>
+      <Temp>{temp}°C</Temp>
+      <State>{condition}</State>
     </>
   );
 };
